@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deependra's Portfolio</title>
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Theme Toggle Button  -->
+    <!-- Make it in the last -->
+    <input type="checkbox" id="theme-toggle-btn" class="theme-toggle-checkbox">
+    <label class="theme-toggle-btn" for="theme-toggle-btn"></label>
+
+    <section class="body">
+        <!-- Header Section -->
+        <header id="home" class="container">
+            <!-- Logo -->
+            <p class="logo"><a href="index.html">DK<span>.Portfolio</span></a></p>
+            <!-- Desktop Navbar -->
+            <nav class="desktop-nav">
+                <ul class="header-desktop-navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Desktop Navbar -->
+            <nav class="mobile-nav">
+                <input type="checkbox" id="mobile-nav-check">
+                <label for="mobile-nav-check" class="hamburger-icon"><i class="fa-solid fa-bars"></i></label>
+                <ul class="header-mobile-navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Header Section -->
+        
+        <!-- Main Section  -->
+        <main class="container">
+            <!-- Hero or Home Section -->
+            <section class="hero">
+                <article>
+                    <p class="designation">Full Stack Developer,</p>
+                    <h1 class="heading">Hello I'm <span class="author-name">Deependra Kumar</span></h1>
+                    <p class="summary">I'm passionate about developing full stack applications. Loves to explore tech.
+                    </p>
+                    <div class="buttons">
+                        <a class="resume-btn" href="https://drive.google.com/file/d/1zbH4Cd7RFS8Mk_8KD3yFt3UdPwJdGl2_/view?usp=sharing"
+                            target="_blank"><button class="download-resume-btn">Download Resume</button></a>
+                        <ul class="contact-me-social-media-icons">
+                            <a title="LinkedIn" href="https://www.linkedin.com/in/deependra-kumar-080323230/"
+                                target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a title="Github" href="https://github.com/Deependraaa" target="_blank"><i
+                                    class="fa-brands fa-square-github"></i></a>
+                            <a title="Twitter" href="https://x.com/" target="_blank"><i
+                                    class="fa-brands fa-square-x-twitter"></i></a>
+                            <a title="Instagram" href="https://www.instagram.com/deependra.cr7/?hl=en" target="_blank"><i
+                                    class="fa-brands fa-square-instagram"></i></a>
+                        </ul>
+                    </div>
+                </article>
+                <figure>
+                    <div class="portfolio-image-background"></div>
+                    <img class="portfolio-image" src="resources/profile pic.png" alt="Deependra's Photo">
+                </figure>
+            </section>
+            <!-- Hero Section -->
+            
+            <!-- About Me Section -->
+            <section id="about" class="about-me-section">
+                <h1 class="about-heading">About <span>Me</span></h1>
+                <section class="about-me-content">
+                    <figure>
+                        <img class="about-me-my-image" src="resources/aboutpic.jpg" alt="Deependra Image">
+                    </figure>
+                    <article class="about-me-content-text">
+                        <input type="checkbox" id="read-more-checkbox" class="read-more-checkbox"></input>
+                        <label for="read-more-checkbox" class="read-more-btn">Read More</label>
+                        <label for="read-more-checkbox" class="read-less-btn">Read Less</label>
+                        <article>
+                            <p class="para-1">
+                                Myself Deependra Kumar, will Graduate in 2025. I have passion in
+                                Web Development. I am learning Full Stack Development from Internshala Placement Guaranteed
+                                Course.
+                                I have skills like NodeJS, ExpressJS, React JS, MongoDB, Redux Toolkit, Tailwind,
+                                JavaScript, HTML & CSS, Git & API Handling & Creation. I
+                                have created many projects in these technologies.
+                            </p>
+                            <p class="para-2">Currently, I am mastering the Full Stack Web Development.</p>
+                            <p class="para-3">Drawsiness Detection System, Resume in Sec, Ecommerce Application, etc are some of the major projects
+                                which I have developed.
+                            </p>
+                            <p class="para-4">
+                                This is my portfolio, you can explore it and can know me better. If you want to contact me than links are available in the contact section.
+                            </p>
+                        </article>
+                    </article>
+                </section>
+            </section>
+
+            <!-- About Me Section -->
+            
+            <!-- Skills Section -->
+            <section id="skills" class="skills-section">
+                <h1 class="skills-heading">Skills</h1>
+                <section class="skills-content">
+                    <article class="skill skill-1" title="NodeJS">
+                        <img src="./resources/skill 1 - nodejs.png" alt="Skill 1 - NodeJS" height="200px" width="200px">
+                        <p>NodeJS</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">90%</div>
+                        </div>
+                    </article>
+                    <article class="skill skill-2" title="ExpressJS">
+                        <img src="./resources/skill 2 - express.png" alt="Skill 2 - ExpressJS" height="200px"
+                            width="200px">
+                        <p>ExpressJS</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">80%</div>
+                        </div>
+                    </article>
+                    <article class="skill skill-3" title="MongoDB">
+                        <img src="./resources/skill 3 - mongodb.png" alt="Skill 3 - MongoDB" height="200px"
+                            width="200px">
+                        <p>MongoDB</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">85%</div>
+                        </div>
+                    </article>
+                    <article class="skill skill-4" title="ReactJS">
+                        <img src="./resources/skill 4 - react.png" alt="Skill 4 - ReactJS" height="200px" width="200px">
+                        <p>ReactJS</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">95%</div>
+                        </div>
+                    </article>
+                    <article class="skill skill-5" title="JavaScript">
+                        <img src="./resources/skill 5 - javascript.png" alt="Skill 5 - JavaScript" height="200px"
+                            width="200px">
+                        <p>JavaScript</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">80%</div>
+                        </div>
+                    </article>
+                    <article class="skill skill-6" title="Tailwind CSS">
+                        <img src="./resources/skill 6 - tailwind.png" alt="Skill 6 - Tailwind CSS" height="200px"
+                            width="200px">
+                        <p>Tailwind CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">75%</div>
+                        </div>
+                    </article>
+                    <article class="skill skill-7" title="HTML">
+                        <img src="./resources/skill 7 - html.png" alt="Skill 7 - HTML" height="200px" width="200px">
+                        <p>HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">90%</div>
+                        </div>
+                    </article>
+                    <article class="skill skill-8" title="CSS">
+                        <img src="./resources/skill 8 - css.png" alt="Skill 8 - CSS" height="200px" width="200px">
+                        <p>CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">70%</div>
+                        </div>
+                    </article>
+                    <article class="skill skill-9" title="GIT">
+                        <img src="./resources/skill 9 - git.png" alt="Skill 9 - GIT" height="200px" width="200px">
+                        <p>GIT</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">75%</div>
+                        </div>
+                    </article>
+                    <article class="skill skill-10" title="DSA">
+                        <img src="./resources/skill 10 - dsa.jpg" alt="Skill 10 - DSA" height="200px" width="200px">
+                        <p>DSA</p>
+                        <div class="progress">
+                            <div class="progress-bar"></div>
+                            <div class="progress-percent">80%</div>
+                        </div>
+                    </article>
+                </section>
+            </section>
+            <!-- Skills Section -->
+            
+            <!-- Certifications Section -->
+            <section id="certifications" class="certifications-section">
+                <h1 class="certifications-heading">Certifications</h1>
+                <section class="certifications-content">
+                    <article class="certificate certificate-1">
+                        <img src="resources/gfg.png" alt="Certificate 1">
+                        <article>
+                            <h2 class="heading">Android Development from Geeks for Geeks</h2>
+                            <p class="summary">The Android Development certification from GeeksforGeeks provides hands-on training in building Android applications. It covers core concepts like UI design, database integration, and essential Android libraries, equipping learners with skills to create functional Android apps.</p>
+                            <a href="https://drive.google.com/file/d/1AXizYhSkXQfmw6CzU_f_hVRDSJRD4xQu/view?usp=sharing"
+                                target="_blank" class="view-certificate-btn">View Certificate</a>
+                        </article>
+                    </article>
+                    <article class="certificate certificate-2">
+                        <img src="resources/goldman.png" alt="Certificate 2">
+                        <article>
+                            <h2 class="heading">goldman Sacks Virtual Internship</h2>
+                            <p class="summary">The Goldman Sachs Virtual Internship offers a unique opportunity to gain insights into the finance industry through hands-on experience. Participants work on real-world projects across areas like investment banking, asset management, and technology, enhancing skills relevant to financial careers.</p>
+                            <a href="https://drive.google.com/file/d/1I-kzgSX2MiojAXdC2vMA0L3LefNb3Ilk/view?usp=sharing"
+                                target="_blank" class="view-certificate-btn">View Certificate</a>
+                        </article>
+                    </article>
+                    <article class="certificate certificate-3">
+                        <img src="resources/udemy.png" alt="Certificate 3">
+                        <article>
+                            <h2 class="heading">The Web Development Bootcamp 2023</h2>
+                            <p class="summary">The Web Development Bootcamp 2023 on Udemy is a comprehensive course covering essential web technologies like HTML, CSS, JavaScript, and popular frameworks. Designed for beginners, it offers hands-on projects to build practical skills and create real-world web applications.</p>
+                            <a href="https://drive.google.com/file/d/1pnP7r48-2PMLFTmBTx8f67JaSX1KKUwx/view?usp=sharing"
+                                target="_blank" class="view-certificate-btn">View Certificate</a>
+                        </article>
+                    </article>
+                    <article class="certificate certificate-4">
+                        <img src="resources/dsa.png" alt="Certificate 4">
+                        <article>
+                            <h2 class="heading">Learning DataStructure From Infosys SpringBoard</h2>
+                            <p class="summary">"Learning Data Structures" on Infosys Springboard provides foundational knowledge on data structures such as arrays, linked lists, stacks, and queues. This course is designed to build essential problem-solving skills for programming.
+
+
+
+
+
+
+                            </p>
+                            <a href="https://drive.google.com/file/d/1V2R8BZYAIocJOijBdztlgOj2pQiumF2q/view?usp=sharing"
+                                target="_blank" class="view-certificate-btn">View Certificate</a>
+                        </article>
+                    </article>
+                </section>
+            </section>
+            <!-- Certifications Section -->
+            
+            <!-- Project Section -->
+            <section id="projects" class="projects-section">
+                <h1 class="projects-heading">Projects</h1>
+                <section class="projects-content">
+                    <article class="project project-1">
+                        <p class="number">01</p>
+                        <h2 class="heading">Blog Application</h2>
+                        <p class="summary">
+                            Developed a responsive blog app with the MERN stack, supporting user authentication and CRUD
+                            operations for posts and
+                            comments.
+                        </p>
+                        <p class="tech-stack">Mern Stack</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link"
+                                href="https://github.com/Deependraaa"
+                                class="live-btn" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github" href="https://github.com/Deependraaa" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                    <article class="project project-2">
+                        <p class="number">02</p>
+                        <h2 class="heading">Drawsiness Detection System</h2>
+                        <p class="summary">
+                          A drowsiness detection system uses machine learning to monitor a driver’s eye and facial movements to detect signs of fatigue. When signs of drowsiness are detected, it alerts the driver to prevent accidents..
+                        </p>
+                        <p class="tech-stack">Machine Learning, Python</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link"
+                                href="\https://github.com/Deependraaa"
+                                class="live-btn" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github" href=https://github.com/Deependraaa" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                    <article class="project project-3">
+                        <p class="number">03</p>
+                        <h2 class="heading">Resume in Sec</h2>
+                        <p class="summary">
+                          A resume-creating website helps users easily build and customize professional resumes online. With user-friendly templates, form-based input sections, and downloadable formats, users can create polished, visually appealing resumes tailored for job applications.
+
+
+
+
+
+
+
+                        </p>
+                        <p class="tech-stack">HTML, CSS & JavaScript</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link"
+                                href="https://github.com/Deependraaa"
+                                class="live-btn" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github" href="https://github.com/Deependraaa" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                    <article class="project project-4">
+                        <p class="number">04</p>
+                        <h2 class="heading">Movies Application</h2>
+                        <p class="summary">
+                            Developed a movies app using HTML, CSS, and JavaScript to browse and search for films with
+                            detailed information.
+                        </p>
+                        <p class="tech-stack">HTML, CSS, JavaScript & TMDB API</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link"
+                                href="https://github.com/Deependraaa"
+                                class="live-btn" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github" href="https://github.com/Deependraaa" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                    <article class="project project-5">
+                        <p class="number">05</p>
+                        <h2 class="heading">Multiplayer Tic-Tac-Toe Game</h2>
+                        <p class="summary">
+                            Built a multiplayer Tic-Tac-Toe game with the MERN stack for real-time online play.
+                        </p>
+                        <p class="tech-stack">Mern Stack</p>
+                        <div class="horizontal-ruler"></div>
+                        <div class="buttons">
+                            <a title="Live Link"
+                                href="https://github.com/Deependraaa"
+                                class="live-btn" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a title="Github" href="https://github.com/Deependraaa" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </article>
+                    
+                </section>
+            </section>
+            <!-- Project Section -->
+            
+            <!-- Contact Me Section -->
+            <section id="contact" class="contact-section">
+                <h1 class="contact-heading">Contact <span>Me</span></h1>
+                <section class="contact-content">
+                    <form class="contact-form" action="">
+                        <div class="top-level-form-field">
+                            <div class="form-field">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" minlength="4" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="12" cols="30" name="message" minlength="1" required></textarea>
+                        </div>
+                        <div class="buttons">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                    <section class="social-media-icons">
+                        <a class="social-media-icon" title="Email Me" href="mailto:31638csai@gmail.com" target="_blank">
+                            <i class="fa-solid fa-envelope"></i>
+                            Email Me
+                        </a>
+                        <a class="social-media-icon" title="LinkedIn"
+                            href="https://www.linkedin.com/in/deependra-kumar-080323230/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            LinkedIn
+                        </a>
+                        <a class="social-media-icon" title="Github" href="https://github.com/Deependraaa" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                            Github
+                        </a>
+                        <a class="social-media-icon" title="Twitter" href="https://x.com/" target="_blank">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            Twitter
+                        </a>
+                        <a class="social-media-icon" title="Instagram" href="https://www.instagram.com/deependra.cr7/?hl=en"
+                            target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                            Instagram
+                        </a>
+                    </section>
+                </section>
+            </section>
+            
+            <!-- Contact Me Section -->
+            
+        </main>
+        <!-- Main Section  -->
+        
+        <!-- Footer Section -->
+        <footer>
+            <!-- Footer Navigation Links -->
+            <nav class="footer-navigation-links">
+                <p>Navigation Links</p>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section class="social-media-icons">
+                <a class="social-media-icon" title="Call Me" href="+918858302085" target="_blank">
+                    <i class="fa-solid fa-phone"></i>
+                    Call
+                </a>
+                <a class="social-media-icon" title="Email Me" href="mailto:31638csai@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                    Email Me
+                </a>
+            </section>
+            
+            <p class="footer-copyright-message">Copyright <span>&copy;</span> Deependra Kumar 2024</p>
+        </footer>
+        <!-- Footer Section -->
+        
+        <!-- Move to top Button  -->
+        <a title="Move to Top" href="#home" class="move-to-top-btn"><i class="fa-solid fa-arrow-up"></i></a>
+    </section>
+</body>
+
+</html>
